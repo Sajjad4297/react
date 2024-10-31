@@ -1,0 +1,38 @@
+div.img{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img#react-logo{
+    width: 200px;
+    animation: linear infinite 10s rotate ;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+hr{
+    margin: 0;
+}
+.input-width{
+    width: 96%;
+}
+ul{
+    padding: 0;
+}
+.bgdiv{
+    z-index: -1;
+    width: 200vw;
+    height: 200vh;
+}
+@media(max-width:700px){
+    div.img{
+        width: 108vw;
+
+    }
+}
